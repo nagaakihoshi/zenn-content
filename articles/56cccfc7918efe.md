@@ -28,7 +28,8 @@ microCMSには「[複数環境](https://document.microcms.io/manual/environments
 
 そのため、今回は消去法で開発サイト用サービスと本番サイト用サービスを別々に用意する構成を採用しました。
 
-## 実践：データ移行フロー
+## データ移行の流れ
+
 サービスの用意自体はすぐに終わります。
 
 参考：[サービスの作成](https://document.microcms.io/manual/create-service)
@@ -67,7 +68,7 @@ APIスキーマ（データ構造）については、microCMSの管理画面か
 
 参考：[APIキー（APIの認証と権限管理）](https://document.microcms.io/content-api/x-microcms-api-key)
 
-### 2. データ移行戦略：CSVを介した「半」自動化
+### 2. CSVを介した「半」自動化
 
 理想的には「MCPサーバー経由で開発環境からデータを吸い出し、そのまま本番環境へ書き込む」というダイレクトな移行をしたかったのですが、現状のMCPサーバーの仕様（設定）では、一度に接続できるmicroCMSサービスは1つに限られるようでした。
 

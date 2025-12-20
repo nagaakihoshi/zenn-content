@@ -26,7 +26,7 @@ microCMSには「[複数環境](https://document.microcms.io/manual/environments
 
 参考：[1つのサービスで複数サイトを管理するか、サイトごとにサービスを用意するか、どちらがいいですか？](https://help.microcms.io/ja/knowledge/service-design-multi-site)
 
-そのため、今回は開発サイト用サービスと本番サイト用サービスを別々に用意する構成を採用しました。
+そのため、今回は消去法で開発サイト用サービスと本番サイト用サービスを別々に用意する構成を採用しました。
 
 ## 実践：データ移行フロー
 サービスの用意自体はすぐに終わります。
@@ -37,7 +37,7 @@ APIスキーマ（データ構造）については、microCMSの管理画面か
 
 参考：[APIスキーマのエクスポート／インポート](https://document.microcms.io/manual/export-and-import-api-schema)
 
-{API定義JSONのエクスポート/インポートを行っているmicroCMS管理画面のスクリーンショットを貼る}
+![](https://storage.googleapis.com/zenn-user-upload/8c3dd5dd5e3b-20251220.png)
 
 最大の問題は、コンテンツデータとメディア（画像）データの移行です。ここでMCPサーバーの出番となります。
 

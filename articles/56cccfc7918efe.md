@@ -6,6 +6,8 @@ topics: ["microcms", "mcp"] # タグ。["markdown", "rust", "aws"]のように�
 published: true # 公開設定（falseにすると下書き）
 ---
 
+この記事は [microCMSでやってみた！AI活用からユースケースまで大募集 by microCMS Advent Calendar 2025](https://qiita.com/advent-calendar/2025/microcms) 21日目の記事です。
+
 # microCMS MCPサーバーを利用して、複数環境を跨いだデータ移行した話
 
 microCMSを使って開発をしていると、「開発環境で作ったデータを本番環境に持っていきたい」という場面に遭遇します。しかし、標準機能だけでは意外とこれが難しいのです。
